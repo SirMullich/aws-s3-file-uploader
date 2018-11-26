@@ -10,7 +10,7 @@ object FileManager {
   // TODO: create more commands
 
   // TODO: create props
-  def props() = ???
+//  def props() = ???
 }
 
 class FileManager(s3Client: AmazonS3, bucketName: String) extends Actor with ActorLogging {
